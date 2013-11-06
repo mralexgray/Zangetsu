@@ -118,7 +118,7 @@ describe(@"-cw_mapArray", ^{
 describe(@"-cw_each", ^{
 	
 	it(@"should enumerate all the objects", ^{
-		__block NSMutableArray *results = [[NSMutableArray alloc] init];
+		__block NSMutableArray *results = NSMutableArray.new;
 		[testArray cw_each:^(id obj, NSUInteger index, BOOL *stop) {
 			[results addObject:obj];
 		}];
@@ -126,7 +126,7 @@ describe(@"-cw_each", ^{
 	});
 	
 	it(@"should stop when stop is set to YES", ^{
-		NSMutableArray *results = [[NSMutableArray alloc] init];
+		NSMutableArray *results = NSMutableArray.new;
 		[testArray cw_each:^(id obj, NSUInteger index, BOOL *stop) {
 			[results addObject:obj];
 			if ([(NSString *)obj isEqualToString:@"Leela"]) *stop = YES;

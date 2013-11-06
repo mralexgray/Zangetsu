@@ -33,8 +33,6 @@
 
 #import <Foundation/Foundation.h>
 
-
-
 @interface NSString (Zangetsu_NSString_Empty)
 
 /**

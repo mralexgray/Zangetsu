@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		17395C7313B2810100C900BD /* Zangetsu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17395C7213B280EE00C900BD /* Zangetsu.framework */; };
 		174C23F513BA182200CA4CBB /* CWPathUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 174C23F413BA182200CA4CBB /* CWPathUtilitiesTests.m */; };
+		7B6492201809065C00A9E504 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B64921F1809065C00A9E504 /* XCTest.framework */; };
+		7B6492231809125900A9E504 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B869BB2714C3B6C800ED2908 /* SenTestingKit.framework */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		B8072B3413894F81008F7B63 /* CWURLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8072B3313894F81008F7B63 /* CWURLTests.m */; };
@@ -77,36 +79,36 @@
 		B83A598116FE359F005663D7 /* CWTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B83A597916FE359F005663D7 /* CWTreeTests.m */; };
 		B83A598216FE359F005663D7 /* CWTrieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B83A597B16FE359F005663D7 /* CWTrieTests.m */; };
 		B84682BC170A6E7E00E7F22F /* libextobjc_OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B84682BB170A6E7E00E7F22F /* libextobjc_OSX.a */; };
-		B84682DC170A6F9600E7F22F /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682BE170A6F9600E7F22F /* EXTADT.h */; };
-		B84682DD170A6F9600E7F22F /* EXTAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682BF170A6F9600E7F22F /* EXTAnnotation.h */; };
-		B84682DE170A6F9600E7F22F /* EXTAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C0170A6F9600E7F22F /* EXTAspect.h */; };
-		B84682DF170A6F9600E7F22F /* EXTBlockMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C1170A6F9600E7F22F /* EXTBlockMethod.h */; };
-		B84682E0170A6F9600E7F22F /* EXTBlockTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C2170A6F9600E7F22F /* EXTBlockTarget.h */; };
-		B84682E1170A6F9600E7F22F /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C3170A6F9600E7F22F /* EXTConcreteProtocol.h */; };
-		B84682E2170A6F9600E7F22F /* EXTCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C4170A6F9600E7F22F /* EXTCoroutine.h */; };
-		B84682E3170A6F9600E7F22F /* EXTDispatchObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C5170A6F9600E7F22F /* EXTDispatchObject.h */; };
-		B84682E4170A6F9600E7F22F /* EXTFinalMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C6170A6F9600E7F22F /* EXTFinalMethod.h */; };
-		B84682E5170A6F9600E7F22F /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C7170A6F9600E7F22F /* EXTKeyPathCoding.h */; };
-		B84682E6170A6F9600E7F22F /* EXTMaybe.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C8170A6F9600E7F22F /* EXTMaybe.h */; };
-		B84682E7170A6F9600E7F22F /* EXTMixin.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C9170A6F9600E7F22F /* EXTMixin.h */; };
-		B84682E8170A6F9600E7F22F /* EXTMultimethod.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682CA170A6F9600E7F22F /* EXTMultimethod.h */; };
-		B84682E9170A6F9600E7F22F /* EXTMultiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682CB170A6F9600E7F22F /* EXTMultiObject.h */; };
-		B84682EA170A6F9600E7F22F /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682CC170A6F9600E7F22F /* EXTNil.h */; };
-		B84682EB170A6F9600E7F22F /* extobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682CD170A6F9600E7F22F /* extobjc.h */; };
-		B84682EC170A6F9600E7F22F /* EXTPassthrough.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682CE170A6F9600E7F22F /* EXTPassthrough.h */; };
-		B84682ED170A6F9600E7F22F /* EXTPrivateMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682CF170A6F9600E7F22F /* EXTPrivateMethod.h */; };
-		B84682EE170A6F9600E7F22F /* EXTProtocolCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D0170A6F9600E7F22F /* EXTProtocolCategory.h */; };
-		B84682EF170A6F9600E7F22F /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D1170A6F9600E7F22F /* EXTRuntimeExtensions.h */; };
-		B84682F0170A6F9600E7F22F /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D2170A6F9600E7F22F /* EXTSafeCategory.h */; };
-		B84682F1170A6F9600E7F22F /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D3170A6F9600E7F22F /* EXTScope.h */; };
-		B84682F2170A6F9600E7F22F /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D4170A6F9600E7F22F /* EXTSelectorChecking.h */; };
-		B84682F3170A6F9600E7F22F /* EXTSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D5170A6F9600E7F22F /* EXTSwizzle.h */; };
-		B84682F4170A6F9600E7F22F /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D6170A6F9600E7F22F /* EXTSynthesize.h */; };
-		B84682F5170A6F9600E7F22F /* EXTTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D7170A6F9600E7F22F /* EXTTuple.h */; };
-		B84682F6170A6F9600E7F22F /* EXTVarargs.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D8170A6F9600E7F22F /* EXTVarargs.h */; };
-		B84682F7170A6F9600E7F22F /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D9170A6F9600E7F22F /* metamacros.h */; };
-		B84682F8170A6F9600E7F22F /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682DA170A6F9600E7F22F /* NSInvocation+EXT.h */; };
-		B84682F9170A6F9600E7F22F /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682DB170A6F9600E7F22F /* NSMethodSignature+EXT.h */; };
+		B84682DC170A6F9600E7F22F /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682BE170A6F9600E7F22F /* EXTADT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682DD170A6F9600E7F22F /* EXTAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682BF170A6F9600E7F22F /* EXTAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682DE170A6F9600E7F22F /* EXTAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C0170A6F9600E7F22F /* EXTAspect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682DF170A6F9600E7F22F /* EXTBlockMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C1170A6F9600E7F22F /* EXTBlockMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682E0170A6F9600E7F22F /* EXTBlockTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C2170A6F9600E7F22F /* EXTBlockTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682E1170A6F9600E7F22F /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C3170A6F9600E7F22F /* EXTConcreteProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682E2170A6F9600E7F22F /* EXTCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C4170A6F9600E7F22F /* EXTCoroutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682E3170A6F9600E7F22F /* EXTDispatchObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C5170A6F9600E7F22F /* EXTDispatchObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682E4170A6F9600E7F22F /* EXTFinalMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C6170A6F9600E7F22F /* EXTFinalMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682E5170A6F9600E7F22F /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C7170A6F9600E7F22F /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682E6170A6F9600E7F22F /* EXTMaybe.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C8170A6F9600E7F22F /* EXTMaybe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682E7170A6F9600E7F22F /* EXTMixin.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682C9170A6F9600E7F22F /* EXTMixin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682E8170A6F9600E7F22F /* EXTMultimethod.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682CA170A6F9600E7F22F /* EXTMultimethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682E9170A6F9600E7F22F /* EXTMultiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682CB170A6F9600E7F22F /* EXTMultiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682EA170A6F9600E7F22F /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682CC170A6F9600E7F22F /* EXTNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682EB170A6F9600E7F22F /* extobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682CD170A6F9600E7F22F /* extobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682EC170A6F9600E7F22F /* EXTPassthrough.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682CE170A6F9600E7F22F /* EXTPassthrough.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682ED170A6F9600E7F22F /* EXTPrivateMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682CF170A6F9600E7F22F /* EXTPrivateMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682EE170A6F9600E7F22F /* EXTProtocolCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D0170A6F9600E7F22F /* EXTProtocolCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682EF170A6F9600E7F22F /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D1170A6F9600E7F22F /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682F0170A6F9600E7F22F /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D2170A6F9600E7F22F /* EXTSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682F1170A6F9600E7F22F /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D3170A6F9600E7F22F /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682F2170A6F9600E7F22F /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D4170A6F9600E7F22F /* EXTSelectorChecking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682F3170A6F9600E7F22F /* EXTSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D5170A6F9600E7F22F /* EXTSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682F4170A6F9600E7F22F /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D6170A6F9600E7F22F /* EXTSynthesize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682F5170A6F9600E7F22F /* EXTTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D7170A6F9600E7F22F /* EXTTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682F6170A6F9600E7F22F /* EXTVarargs.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D8170A6F9600E7F22F /* EXTVarargs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682F7170A6F9600E7F22F /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682D9170A6F9600E7F22F /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682F8170A6F9600E7F22F /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682DA170A6F9600E7F22F /* NSInvocation+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84682F9170A6F9600E7F22F /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = B84682DB170A6F9600E7F22F /* NSMethodSignature+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B848FFCA17CF9BA600565D9B /* NSMutableArray+Copying.h in Headers */ = {isa = PBXBuildFile; fileRef = B848FFC817CF9BA600565D9B /* NSMutableArray+Copying.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B848FFCB17CF9BA600565D9B /* NSMutableArray+Copying.h in Headers */ = {isa = PBXBuildFile; fileRef = B848FFC817CF9BA600565D9B /* NSMutableArray+Copying.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B848FFCC17CF9BA600565D9B /* NSMutableArray+Copying.m in Sources */ = {isa = PBXBuildFile; fileRef = B848FFC917CF9BA600565D9B /* NSMutableArray+Copying.m */; };
@@ -303,7 +305,7 @@
 		B8EF77A817BD15E2005721B8 /* NSDictionary+Enumeration.h in Headers */ = {isa = PBXBuildFile; fileRef = B8EF77A517BD15E2005721B8 /* NSDictionary+Enumeration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8EF77A917BD15E2005721B8 /* NSDictionary+Enumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EF77A617BD15E2005721B8 /* NSDictionary+Enumeration.m */; };
 		B8EF77AA17BD15E3005721B8 /* NSDictionary+Enumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EF77A617BD15E2005721B8 /* NSDictionary+Enumeration.m */; };
-		B8F1664E17CBA1910010A149 /* NSString+UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F1664C17CBA1910010A149 /* NSString+UUID.h */; };
+		B8F1664E17CBA1910010A149 /* NSString+UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F1664C17CBA1910010A149 /* NSString+UUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8F1664F17CBA1910010A149 /* NSString+UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F1664C17CBA1910010A149 /* NSString+UUID.h */; };
 		B8F1665017CBA1910010A149 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F1664D17CBA1910010A149 /* NSString+UUID.m */; };
 		B8F1665117CBA1910010A149 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F1664D17CBA1910010A149 /* NSString+UUID.m */; };
@@ -345,6 +347,8 @@
 		174C23F313BA182200CA4CBB /* CWPathUtilitiesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWPathUtilitiesTests.h; path = Source/CWPathUtilitiesTests.h; sourceTree = "<group>"; };
 		174C23F413BA182200CA4CBB /* CWPathUtilitiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWPathUtilitiesTests.m; path = Source/CWPathUtilitiesTests.m; sourceTree = "<group>"; };
 		32DBCF5E0370ADEE00C91783 /* Zangetsu_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zangetsu_Prefix.pch; sourceTree = "<group>"; };
+		7B64921F1809065C00A9E504 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7BCDC13A182A433200C9AE23 /* Sub-Umbrella.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Sub-Umbrella.xcconfig"; path = "/Volumes/2T/ServiceData/AtoZ.framework/AtoZ/../xcconfigs/Base/Targets/Sub-Umbrella.xcconfig"; sourceTree = "<absolute>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8072B3213894F81008F7B63 /* CWURLTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWURLTests.h; path = Source/CWURLTests.h; sourceTree = "<group>"; };
 		B8072B3313894F81008F7B63 /* CWURLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWURLTests.m; path = Source/CWURLTests.m; sourceTree = "<group>"; };
@@ -645,6 +649,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B6492231809125900A9E504 /* SenTestingKit.framework in Frameworks */,
+				7B6492201809065C00A9E504 /* XCTest.framework in Frameworks */,
 				B8E8F62A12F1ED30001A0BBF /* CoreData.framework in Frameworks */,
 				17395C7313B2810100C900BD /* Zangetsu.framework in Frameworks */,
 				B884628516C0AD8B00EE9AF0 /* libExpecta-macosx.a in Frameworks */,
@@ -670,6 +676,7 @@
 		0867D691FE84028FC02AAC07 /* Zangetsu */ = {
 			isa = PBXGroup;
 			children = (
+				7BCDC13A182A433200C9AE23 /* Sub-Umbrella.xcconfig */,
 				B8B6638B1287A93B00CB4E3E /* ReadMe.md */,
 				B82D73E711DA850A00863F3B /* Zangetsu.h */,
 				B869BB2314C3AACE00ED2908 /* ZangetsuTouch.h */,
@@ -888,6 +895,7 @@
 		B869BAFA14C3AA5A00ED2908 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B64921F1809065C00A9E504 /* XCTest.framework */,
 				B84C17D3153F8BA4006CB444 /* libprofile_rt.a */,
 				B8E3881314C47BD000F6D2A8 /* Security.framework */,
 				B869BB2714C3B6C800ED2908 /* SenTestingKit.framework */,
@@ -1131,6 +1139,37 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B84682DC170A6F9600E7F22F /* EXTADT.h in Headers */,
+				B84682DD170A6F9600E7F22F /* EXTAnnotation.h in Headers */,
+				B84682DE170A6F9600E7F22F /* EXTAspect.h in Headers */,
+				B84682DF170A6F9600E7F22F /* EXTBlockMethod.h in Headers */,
+				B84682E0170A6F9600E7F22F /* EXTBlockTarget.h in Headers */,
+				B84682E1170A6F9600E7F22F /* EXTConcreteProtocol.h in Headers */,
+				B84682E2170A6F9600E7F22F /* EXTCoroutine.h in Headers */,
+				B84682E3170A6F9600E7F22F /* EXTDispatchObject.h in Headers */,
+				B84682E4170A6F9600E7F22F /* EXTFinalMethod.h in Headers */,
+				B84682E5170A6F9600E7F22F /* EXTKeyPathCoding.h in Headers */,
+				B84682E6170A6F9600E7F22F /* EXTMaybe.h in Headers */,
+				B84682E7170A6F9600E7F22F /* EXTMixin.h in Headers */,
+				B84682E8170A6F9600E7F22F /* EXTMultimethod.h in Headers */,
+				B84682E9170A6F9600E7F22F /* EXTMultiObject.h in Headers */,
+				B84682EA170A6F9600E7F22F /* EXTNil.h in Headers */,
+				B84682EB170A6F9600E7F22F /* extobjc.h in Headers */,
+				B84682EC170A6F9600E7F22F /* EXTPassthrough.h in Headers */,
+				B84682ED170A6F9600E7F22F /* EXTPrivateMethod.h in Headers */,
+				B84682EE170A6F9600E7F22F /* EXTProtocolCategory.h in Headers */,
+				B84682EF170A6F9600E7F22F /* EXTRuntimeExtensions.h in Headers */,
+				B84682F0170A6F9600E7F22F /* EXTSafeCategory.h in Headers */,
+				B84682F1170A6F9600E7F22F /* EXTScope.h in Headers */,
+				B84682F2170A6F9600E7F22F /* EXTSelectorChecking.h in Headers */,
+				B84682F3170A6F9600E7F22F /* EXTSwizzle.h in Headers */,
+				B84682F4170A6F9600E7F22F /* EXTSynthesize.h in Headers */,
+				B84682F5170A6F9600E7F22F /* EXTTuple.h in Headers */,
+				B84682F6170A6F9600E7F22F /* EXTVarargs.h in Headers */,
+				B84682F7170A6F9600E7F22F /* metamacros.h in Headers */,
+				B84682F8170A6F9600E7F22F /* NSInvocation+EXT.h in Headers */,
+				B84682F9170A6F9600E7F22F /* NSMethodSignature+EXT.h in Headers */,
+				B8F1664E17CBA1910010A149 /* NSString+UUID.h in Headers */,
 				B890142B11D992F000705CE4 /* CWSHA1Utilities.h in Headers */,
 				B890149511D99D6A00705CE4 /* CWMacros.h in Headers */,
 				B82D73E811DA850A00863F3B /* Zangetsu.h in Headers */,
@@ -1173,36 +1212,6 @@
 				B83A596216FE3565005663D7 /* CWStack.h in Headers */,
 				B83A596616FE3565005663D7 /* CWTree.h in Headers */,
 				B83A596A16FE3565005663D7 /* CWTrie.h in Headers */,
-				B84682DC170A6F9600E7F22F /* EXTADT.h in Headers */,
-				B84682DD170A6F9600E7F22F /* EXTAnnotation.h in Headers */,
-				B84682DE170A6F9600E7F22F /* EXTAspect.h in Headers */,
-				B84682DF170A6F9600E7F22F /* EXTBlockMethod.h in Headers */,
-				B84682E0170A6F9600E7F22F /* EXTBlockTarget.h in Headers */,
-				B84682E1170A6F9600E7F22F /* EXTConcreteProtocol.h in Headers */,
-				B84682E2170A6F9600E7F22F /* EXTCoroutine.h in Headers */,
-				B84682E3170A6F9600E7F22F /* EXTDispatchObject.h in Headers */,
-				B84682E4170A6F9600E7F22F /* EXTFinalMethod.h in Headers */,
-				B84682E5170A6F9600E7F22F /* EXTKeyPathCoding.h in Headers */,
-				B84682E6170A6F9600E7F22F /* EXTMaybe.h in Headers */,
-				B84682E7170A6F9600E7F22F /* EXTMixin.h in Headers */,
-				B84682E8170A6F9600E7F22F /* EXTMultimethod.h in Headers */,
-				B84682E9170A6F9600E7F22F /* EXTMultiObject.h in Headers */,
-				B84682EA170A6F9600E7F22F /* EXTNil.h in Headers */,
-				B84682EB170A6F9600E7F22F /* extobjc.h in Headers */,
-				B84682EC170A6F9600E7F22F /* EXTPassthrough.h in Headers */,
-				B84682ED170A6F9600E7F22F /* EXTPrivateMethod.h in Headers */,
-				B84682EE170A6F9600E7F22F /* EXTProtocolCategory.h in Headers */,
-				B84682EF170A6F9600E7F22F /* EXTRuntimeExtensions.h in Headers */,
-				B84682F0170A6F9600E7F22F /* EXTSafeCategory.h in Headers */,
-				B84682F1170A6F9600E7F22F /* EXTScope.h in Headers */,
-				B84682F2170A6F9600E7F22F /* EXTSelectorChecking.h in Headers */,
-				B84682F3170A6F9600E7F22F /* EXTSwizzle.h in Headers */,
-				B84682F4170A6F9600E7F22F /* EXTSynthesize.h in Headers */,
-				B84682F5170A6F9600E7F22F /* EXTTuple.h in Headers */,
-				B84682F6170A6F9600E7F22F /* EXTVarargs.h in Headers */,
-				B84682F7170A6F9600E7F22F /* metamacros.h in Headers */,
-				B84682F8170A6F9600E7F22F /* NSInvocation+EXT.h in Headers */,
-				B84682F9170A6F9600E7F22F /* NSMethodSignature+EXT.h in Headers */,
 				B8F738C0177F537900A66200 /* CWLogging.h in Headers */,
 				B88474C11780A1FA00EC9373 /* CWAssertionMacros.h in Headers */,
 				B8C9BC6017B9224300679B86 /* NSArray+Enumeration.h in Headers */,
@@ -1212,7 +1221,6 @@
 				B8F32B9E17C25B9400DE385F /* NSDictionary+Transform.h in Headers */,
 				B81E520F17C3BC7A0076BC63 /* NSObject+PerformOperation.h in Headers */,
 				B80C295717C9195600D27E00 /* NSSet+Enumeration.h in Headers */,
-				B8F1664E17CBA1910010A149 /* NSString+UUID.h in Headers */,
 				B81F6AF517CCECA80026763A /* NSSet+Transform.h in Headers */,
 				B848FFCA17CF9BA600565D9B /* NSMutableArray+Copying.h in Headers */,
 				B8AD231317D0EA4B009D9848 /* NSString+Enumeration.h in Headers */,
@@ -1468,7 +1476,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "# Run the unit tests in this test bundle.\n#\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1663,8 +1671,10 @@
 /* Begin XCBuildConfiguration section */
 		1DEB91AE08733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCDC13A182A433200C9AE23 /* Sub-Umbrella.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_MODULES_AUTOLINK = NO;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1675,12 +1685,15 @@
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Zangetsu_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "@rpath";
+				INSTALL_PATH = "@loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/External/Specta\"",
@@ -1697,6 +1710,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_MODULES_AUTOLINK = NO;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1705,11 +1719,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Zangetsu_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "@rpath";
+				INSTALL_PATH = "@loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/External/Specta\"",
@@ -1737,7 +1754,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
@@ -1773,7 +1790,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1799,7 +1816,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
@@ -1828,6 +1845,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_MODULES_AUTOLINK = NO;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1838,12 +1856,15 @@
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Zangetsu_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "@rpath";
+				INSTALL_PATH = "@loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/External/Specta\"",
@@ -2027,20 +2048,28 @@
 		B8F5E66F12A02EB700E58C94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_FRAMEWORKS_DIR)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/Zangetsu-UnitTestsOSX.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(DEVELOPER)/Toolchains/XcodeDefault.xctoolchain/usr/include\"",
+				);
 				INFOPLIST_FILE = "Unit Tests-Info.plist";
-				INSTALL_PATH = "@rpath";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib\"",
@@ -2048,18 +2077,15 @@
 					"\"$(SRCROOT)/External/Specta\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				OTHER_CFLAGS = (
-					"-ftest-coverage",
-					"-fprofile-arcs",
-				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fprofile-arcs";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Cocoa,
-					"-framework",
-					SenTestingKit,
 					"-ObjC",
 				);
 				PRODUCT_NAME = "Unit Tests";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -2067,17 +2093,25 @@
 		B8F5E67012A02EB700E58C94 /* Analyze */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_FRAMEWORKS_DIR)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/Zangetsu-UnitTestsOSX.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(DEVELOPER)/Toolchains/XcodeDefault.xctoolchain/usr/include\"",
+				);
 				INFOPLIST_FILE = "Unit Tests-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib\"",
@@ -2085,18 +2119,15 @@
 					"\"$(SRCROOT)/External/Specta\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				OTHER_CFLAGS = (
-					"-ftest-coverage",
-					"-fprofile-arcs",
-				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fprofile-arcs";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Cocoa,
-					"-framework",
-					SenTestingKit,
 					"-ObjC",
 				);
 				PRODUCT_NAME = "Unit Tests";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Analyze;
@@ -2104,19 +2135,28 @@
 		B8F5E67112A02EB700E58C94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_FRAMEWORKS_DIR)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Source/Zangetsu-UnitTestsOSX.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(DEVELOPER)/Toolchains/XcodeDefault.xctoolchain/usr/include\"",
+				);
 				INFOPLIST_FILE = "Unit Tests-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				"INSTALL_PATH[sdk=*]" = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib\"",
@@ -2124,18 +2164,15 @@
 					"\"$(SRCROOT)/External/Specta\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				OTHER_CFLAGS = (
-					"-ftest-coverage",
-					"-fprofile-arcs",
-				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fprofile-arcs";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Cocoa,
-					"-framework",
-					SenTestingKit,
 					"-ObjC",
 				);
 				PRODUCT_NAME = "Unit Tests";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = octest;
 				ZERO_LINK = NO;
 			};

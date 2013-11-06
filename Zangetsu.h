@@ -32,9 +32,15 @@
  they were created & added to Zangetsu
  */
 
-#if ! __has_feature(objc_arc)
-#error This project requires ARC
+//#if ! __has_feature(objc_arc)
+//#warning This project requires ARC
+//#endif
+// ARC is compatible with iOS 4.0 upwards, but you need at least Xcode 4.2 with Clang LLVM 3.0 to compile it.
+#if !defined(__clang__)
+// || __clang_major__ < 3 || !__has_feature(objc_arc)
+#warning This project must be compiled with ARC (Xcode 4.2+ with LLVM 3.0 and above)
 #endif
+
 
 #import "CWAssertionMacros.h"
 #import "CWLogging.h"
@@ -92,3 +98,31 @@
 #import "CWFixedQueue.h"
 #import "CWPriorityQueue.h"
 #import "NSNumberAdditions.h"
+
+#import "EXTADT.h"
+#import "EXTAnnotation.h"
+#import "EXTAspect.h"
+#import "EXTBlockMethod.h"
+#import "EXTBlockTarget.h"
+#import "EXTConcreteProtocol.h"
+#import "EXTDispatchObject.h"
+#import "EXTFinalMethod.h"
+#import "EXTKeyPathCoding.h"
+#import "EXTMaybe.h"
+#import "EXTMixin.h"
+#import "EXTMultimethod.h"
+#import "EXTMultiObject.h"
+#import "EXTNil.h"
+#import "EXTPassthrough.h"
+#import "EXTPrivateMethod.h"
+#import "EXTProtocolCategory.h"
+#import "EXTSafeCategory.h"
+#import "EXTScope.h"
+#import "EXTSelectorChecking.h"
+#import "EXTSynthesize.h"
+#import "EXTSwizzle.h"
+#import "EXTTuple.h"
+#import "EXTVarargs.h"
+#import "NSInvocation+EXT.h"
+#import "NSMethodSignature+EXT.h"
+
