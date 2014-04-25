@@ -2010,8 +2010,8 @@
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib",
 					"$(SRCROOT)/External/**",
-					/Users/colinw/Development/Zangetsu/External/Expecta,
-					/Users/colinw/Development/Zangetsu/External/Specta,
+					External/Expecta,
+					External/Specta,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CFLAGS = "";
@@ -2020,6 +2020,8 @@
 					Cocoa,
 					"-ObjC",
 					"-all_load",
+					"-framework",
+					SenTestingKit,
 				);
 				PRODUCT_NAME = "Unit Tests";
 				WRAPPER_EXTENSION = xctest;
@@ -2047,8 +2049,8 @@
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib",
 					"$(SRCROOT)/External/**",
-					/Users/colinw/Development/Zangetsu/External/Expecta,
-					/Users/colinw/Development/Zangetsu/External/Specta,
+					External/Expecta,
+					External/Specta,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CFLAGS = "";
@@ -2057,6 +2059,8 @@
 					Cocoa,
 					"-ObjC",
 					"-all_load",
+					"-framework",
+					SenTestingKit,
 				);
 				PRODUCT_NAME = "Unit Tests";
 				WRAPPER_EXTENSION = xctest;
@@ -2086,8 +2090,8 @@
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib",
 					"$(SRCROOT)/External/**",
-					/Users/colinw/Development/Zangetsu/External/Expecta,
-					/Users/colinw/Development/Zangetsu/External/Specta,
+					External/Expecta,
+					External/Specta,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CFLAGS = "";
@@ -2096,6 +2100,8 @@
 					Cocoa,
 					"-ObjC",
 					"-all_load",
+					"-framework",
+					SenTestingKit,
 				);
 				PRODUCT_NAME = "Unit Tests";
 				WRAPPER_EXTENSION = xctest;
